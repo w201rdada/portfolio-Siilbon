@@ -1,12 +1,12 @@
-# Karl's Big Idea
+# Consequence based Alarm Prioritization
 
 #### Keywords {-}
 
-yaba, daba, do
+Alarm Management, Machine Learning, Human Machine Interface
 
-## A beginning.
+## Alarm Flood
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Operators in a manufacturing plant are confronted with a steady stream of alarms which are meant to alert them to adverse conditions.  It is up to the Operators to use their exerience to determine which issues to tackle first.
 
 ## A middle.
 
