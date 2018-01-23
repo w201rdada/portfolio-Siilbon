@@ -6,12 +6,18 @@ Alarm Management, Machine Learning, Human Machine Interface
 
 ## Alarm Flood
 
-Operators in a manufacturing plant are confronted with a steady stream of alarms which are meant to alert them to adverse conditions.  It is up to the Operators to use their exerience to determine which issues to tackle first.
+Operators in a manufacturing plant are confronted with a steady stream of alarms which are meant to alert them to adverse conditions.  It is up to the Operators to use their experience to determine which issues to tackle first.  Sometimes they miss an important alarm which results in downtime and an economic loss from lost production.
 
 ## Dynamic Prioritization of Alarms
 
-Train an algorithm with information about how long it takes to correct a problem signalled by and alarm and then the potential consequence of ignoring it.  Use this algorithm to dynamically assing priorities and present the operator with the most pertinant information.
+Train an algorithm with information about how long it takes to correct a problem signaled by and alarm and the potential consequence of ignoring it.  Use this algorithm to dynamically assess the priorities and present the operator with the most pertinent information.  The algorithm will be trained using our historical alarm log and the records of economic loss resulting from different problems.
+
+I believe that the model will provide greater insight into the process by identifying weak spots.  If alarms associated with a certain piece of equipment are consistently prioritized then it may justify upgrading the equipment to make the process more robust.  The relative prioritization of alarms before and after an equipment change is made could be used as semi-quantitative evidence of its effectiveness.  
+
+An additional benefit may arise from analyzing what alarms the algorithm ignores.  I suspect there are groups of alarms clogging up the logs that do not provide the operators actionable information.  Some of these alarms may just need to be routed to different personnel, perhaps maintenance, or management.  Others may not have any value at all and can be discarded.
+
+There will be several hurdles to developing the model.  There are many biases in the data set, for example, some operators are better than others, and already know which alarms require immediate attention.  This presents a challenge because they will likely prevent economic loss from occurring, which the model may interpret as the alarm being inconsequential.  There are several possible to combat this problem, perhaps certain alarms can be identified as important regardless of the models assessment.  Or perhaps a joint analysis could be performed that analyzes the alarm log and the operators actions together to see what alarms illicit the most severe responses.
 
 ## Evolution of the Operator Role
 
-With the implementation of Dynamic Alarm Prioritization it will enable operators to focus on the most important tasks, reducing the the likelyhood of damaging equipment or having to shut down the process because of an operator missed a critical alarm.  Ideally this will also enable them to become more engaged in other activities such as optimization.
+With the implementation of Dynamic Alarm Prioritization it will enable operators to focus on the most important tasks, reducing the likelihood of damaging equipment or having to shut down the process because of an operator missed a critical alarm.  Ideally this will also enable them to become more engaged in other activities such as optimization.  Because they are no longer forced to concentrate on the constant alarm stream I foresee their role transforming into a more proactive role.
