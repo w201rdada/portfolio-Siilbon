@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>W201 Portfolio</title>
+  <meta name="description" content="W201 Portfolio">
+  <meta name="generator" content="bookdown 0.5.9 and GitBook 2.6.7">
+
+  <meta property="og:title" content="W201 Portfolio" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="W201 Portfolio" />
+  
+  
+  
+
+<meta name="author" content="Karl Siil">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="slug-two.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Oski Bear</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome!</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="dynamic-process-alarm-prioritization-1.html"><a href="dynamic-process-alarm-prioritization-1.html"><i class="fa fa-check"></i>Dynamic Process Alarm Prioritization</a><ul>
+<li class="chapter" data-level="" data-path="dynamic-process-alarm-prioritization-1.html"><a href="dynamic-process-alarm-prioritization-1.html#alarm-flood"><i class="fa fa-check"></i>Alarm Flood</a></li>
+<li class="chapter" data-level="" data-path="dynamic-process-alarm-prioritization-1.html"><a href="dynamic-process-alarm-prioritization-1.html#dynamic-prioritization-of-alarms"><i class="fa fa-check"></i>Dynamic Prioritization of Alarms</a></li>
+<li class="chapter" data-level="" data-path="dynamic-process-alarm-prioritization-1.html"><a href="dynamic-process-alarm-prioritization-1.html#evolution-of-the-operator-role"><i class="fa fa-check"></i>Evolution of the Operator Role</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html"><i class="fa fa-check"></i>My second cool idea</a><ul>
+<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-beginning."><i class="fa fa-check"></i>A beginning.</a></li>
+<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-middle."><i class="fa fa-check"></i>A middle.</a></li>
+<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#an-end."><i class="fa fa-check"></i>An end.</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/oskibear" target="blank">GitHub</a></li>
+<li><a href="https://www.ischool.berkeley.edu/people/oski-bear" target="blank">UC Berkeley</a></li>
+<li><a href="https://www.linkedin.com/in/oskibear/" target="blank">LinkedIn</a></li>
+<li><a href="https://www.wired.com/2013/02/friendster-autopsy/" target="blank">Friendster</a></li>        
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">W201 Portfolio</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="dynamic-process-alarm-prioritization-1" class="section level1">
+<h1>Dynamic Process Alarm Prioritization</h1>
+<div id="keywords" class="section level4 unnumbered">
+<h4>Keywords</h4>
+<p>Alarm Management, Alarm Systems, Machine Learning, Human Machine Interface, Continuous Manufacturing</p>
+</div>
+<div id="alarm-flood" class="section level2">
+<h2>Alarm Flood</h2>
+<p>Operators in a manufacturing plant are confronted with a steady stream of alarms which are meant to alert them to adverse conditions. It is up to the operators to use their experience to determine which issues to tackle first. Sometimes they miss an important alarm which results in downtime and an economic loss from lost production. It is common that an alarm interface will consist of a large table that dynamically fills with the most recent alarm information. During times when a process is upset, this table can be continuously updating which can be overwhelming even for experienced operators.</p>
+<p>By leveraging the thousands of measurements that are already aggregated in an automated control system it’s possible to alleviate some of the pressure. Currently, the process of alarm management is often implemented using a labor intensive brute force technique involving a large time investment from a multidisciplinary team.<span class="citation">(Hollifield <a href="#ref-hollifield_understanding_2010">2010</a>)</span> By generating a model which determines what alarms are critical during the current mode of operation, the operators will benefit from their collective experience without the large team performing alarm management analysis. The model will act as a tool, which used in conjunction with human insight, will help reduce lost production by improving the meaningful productivity of operators.</p>
+</div>
+<div id="dynamic-prioritization-of-alarms" class="section level2">
+<h2>Dynamic Prioritization of Alarms</h2>
+<p>The solution is to train an algorithm with information about how long it takes to correct a problem signaled by and alarm and the potential consequence of ignoring it. This algorithm will be used to dynamically assess the priorities and present the operator with the most pertinent information. The priority of an alarm increases with the consequence of the failing to take action, and the amount of time to take that action. So, issues resulting in damage to expensive equipment that occur quickly would be used to assign the highest priority. This is possible by reconciling the logs of all the operator actions related to a piece of equipment which occurred between the generation of the equipment alarm and its resolution. The alarms and actions will both be categorized by the associated equipment.</p>
+<p>The end result will be a graphical interface that shows an operator only the 5-10 most important issues that they need to correct ranked by importance. It will also offer options for the operator to override the predicted importance to provide live feedback. Rather than a large table of alarms the interface will allow for quick navigation to top 5-10 issues while also providing some summary bar graphs to illustrate whether the issues are isolated to a single area, or plantwide<span class="citation">(Tufte, n.d.)</span>. The interface will adapt to the current user to compensate for their lack of experience. To shorten the onboarding process, a common low experience account would serve as a baseline before it customized to a new employee.</p>
+<p>One demonstrative example would be a high temperature alarm on a product storage tank. Perhaps a single high temperature alarm may not represent a major threat to the product’s quality. However, if several of the high temperature alarms begin to activate then the model will recognize the important systemic issue with the cooling system and prioritize the group of alarms.</p>
+<p>There are groups of alarms clogging up the logs that do not provide the operators actionable information. Some of these alarms may just need to be routed to different personnel, perhaps maintenance, or management. Others may not have any value at all and can be discarded. By routing these alarms to the proper parties, it will improve the process for all stakeholders.</p>
+</div>
+<div id="evolution-of-the-operator-role" class="section level2">
+<h2>Evolution of the Operator Role</h2>
+<p>There will be several hurdles to developing the model. There are many biases in the data set, for example, some operators are more experienced than others, and already know which alarms require immediate attention. Experienced operators will take action proactively, in some cases even before an alarm is triggered. One possible solution would be to identify when an operator alters the conditions of some equipment in the absence of alarms. This may require manual intervention to determine what adverse conditions were avoided.</p>
+<p>With the implementation of a Dynamic Process Alarm Prioritization model, operators will divert their attention to the most important tasks. The increase in their meaningful productivity will reduce the likelihood of damaging equipment or halting production because an operator missed a critical alarm. Because they are no longer forced to concentrate on the constant alarm stream they will have time to think proactively resulting in fewer alarms overall. By embedding the experience of all the operators in the model, an estimated week of unplanned downtime could be avoided annually increasing throughput by millions of dollars.</p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-hollifield_understanding_2010">
+<p>Hollifield, Bill. 2010. “Understanding and Applying the ANSI/ ISA 18.2 Alarm Management Standard.” PAS. <a href="https://www.isa.org/standards-and-publications/isa-publications/intech-magazine/white-papers/pas-understanding-and-applying-ansi-isa-18-2-alarm-management-standard/" class="uri">https://www.isa.org/standards-and-publications/isa-publications/intech-magazine/white-papers/pas-understanding-and-applying-ansi-isa-18-2-alarm-management-standard/</a>.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="slug-two.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": false,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/w201rdada/portfolio-MYGITHUBUSER/edit/master/01.Rmd",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>
