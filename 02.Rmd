@@ -1,4 +1,4 @@
-# Drawing Improvement tool  {#Artifical-Art-Critic-(AAC)}
+# Drawing Improvement tool  {#Artifical-Artist's-Eye-(AAE)}
 
 #### Keywords {-} 
 
@@ -6,12 +6,18 @@ Art, creativity, design, improvement
 
 ## The Creative Struggle
 
-One of the most fundamental mediums for artistic expression is pencil drawing.  It doesn't require expensive materials or space and it can be used used to plan works, or create original beautiful works.  Drawing takes a lot of practice and it can be stressful to ask the opinion of others during the early stages of a work.
+One of the most fundamental mediums for artistic expression is pencil drawing.  It doesn't require expensive materials or space and it can be used used to plan works, or create original beautiful works.  Drawing takes a lot of practice and it can be stressful to ask the opinion of others during the early stages of a work.  Asking the opinion of other artists invites them to share their valuable experience, but it is often accompanied with their personal biases.  A tool that allows the user to select images to compare against their work is empowering.
 
 ## Using the Objectivity of a Machine
 
-To help aleviate some of the stress of this process, a machine learning algorithm can be trained to recognize elements of other images and "score" the user artist's drawing against them.  For example, the algorithm could take a group of images of humans and judge the drawing's body proportions, maybe the forearms are too long, or the torso too short.    
+To help aleviate some of the stress of this process, a machine learning algorithm can be trained to recognize elements of other images and "score" the user artist's drawing against them.  For example, the algorithm could take a group of images of humans and judge the drawing's body proportions, maybe the forearms are too long, or the torso too short.  The algorithm could also compare the target picture against things like the composition, the line quality, and shape.  These core elements of a drawing would be one way for an artist to quantify improvement.
+
+The tool is meant to be used by artists to help them explore methods to improve their work without compromising the creative process.  Like any tool, it needs to used correctly.  It will never replace an artist's vision, creativity, or judgement, but they can choose to use it for to improve.  The tool would ideally have a high degree of "artist in the loop" design, where the user can interact to influence the performance.
+
+One way and artist to use this tool would be to improve their representations of real subjects.  For example, photos of apples could be used to train the tool.  Then the user would get a semi-quantitative evaluation of how "apple-like" their drawing was.
+
+Another way to use the tool is to try to deviate from established rules or norms.  For example someone focusing on a fantastic or surrealist work may be interested in moving their drawings away from realistic representations.  This tool would provide them a way to judge how their work deviates in a semi quantitative way.  Perhaps they notice that their hectic line work sets them apart from the images they used to train the tool, which leads them to experiment further.
 
 ## Building Skills Rapidly
 
-This allows an artist to get rapid objective feedback on certain aspects of their work without judgement from their peers.
+Using an artificial artist's eye allows an artist to get rapid objective feedback on certain aspects of artist to be in control of the type of feedback that they want to recieve.  The artist then interprets the feedback and innovates further so that the tool supplements the creative process rather than supplanting it.  This core idea is what makes the tool applicable to people in every stage of their artistic journey.  Someone only learning to draw could discover that they need to spend more time practicing lighting and sandows, while an experienced artist could get a better understanding of what makes their work unique.
