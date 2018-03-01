@@ -18,6 +18,6 @@ One way and artist to use this tool would be to improve their representations of
 
 Another way to use the tool is to try to deviate from established rules or norms.  For example someone focusing on a fantastic or surrealist work may be interested in moving their drawings away from realistic representations.  This tool would provide them a way to judge how their work deviates in a semi quantitative way.  Perhaps they notice that their hectic line work sets them apart from the images they used to train the tool, which leads them to experiment further.
 
-## Building Skills Rapidly
+## Building Skills Rapidly 
 
 Using an artificial artist's eye allows an artist to get rapid objective feedback on certain aspects of artist to be in control of the type of feedback that they want to receive.  The artist then interprets the feedback and innovates further so that the tool supplements the creative process rather than supplanting it.  This core idea is what makes the tool applicable to people in every stage of their artistic journey.  Someone only learning to draw could discover that they need to spend more time practicing lighting and shadows, while an experienced artist could get a better understanding of what makes their work unique.
