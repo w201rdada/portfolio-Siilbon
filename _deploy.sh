@@ -26,3 +26,4 @@ git push origin master
 	
 Or from an open Rstudio project use menu
 "Git > Push Branch" or use tab "Git > Push".'
+
