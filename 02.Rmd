@@ -1,10 +1,11 @@
+
 # Drawing Improvement tool  {#Artificial-Artists-Eye-AAE}
 
-#### Keywords {-} 
+#### Keywords {-}
 
 Art, creativity, design, self-help, drawing, image processing
 
-## The Creative Struggle
+## A beginning.
 
 One of the most fundamental mediums for artistic expression is pencil drawing.  It doesn't require expensive materials or space and it can be used to plan works, or create beautiful original works.  Drawing takes a lot of practice and it can be stressful to ask the opinion of others during the early stages of a work.  Asking the opinion of other artists invites them to share their valuable experience, but it is often accompanied with their personal biases.  Because pencil drawings are monochromatic and have high contrast between the paper and the graphite they can be readily analyzed by a computerized tool.  A tool that allows the user to select images to compare against their work empowers the artist.  Using the Artificial Artists Eye (AAE) an artist can get feedback without stifling their personal creativity or signature style.
 
