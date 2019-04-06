@@ -1,25 +1,28 @@
-# My second cool idea {#slug-two}
+
+# Drawing Improvement tool  {#Artificial-Artists-Eye-AAE}
 
 #### Keywords {-}
 
-yaba, daba, do
+Art, creativity, design, self-help, drawing, image processing
 
 ## A beginning.
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+One of the most fundamental mediums for artistic expression is pencil drawing.  It doesn't require expensive materials or space and it can be used to plan works, or create beautiful original works.  Drawing takes a lot of practice and it can be stressful to ask the opinion of others during the early stages of a work.  Asking the opinion of other artists invites them to share their valuable experience, but it is often accompanied with their personal biases.  Because pencil drawings are monochromatic and have high contrast between the paper and the graphite they can be readily analyzed by a computerized tool.  A tool that allows the user to select images to compare against their work empowers the artist.  Using the Artificial Artists Eye (AAE) an artist can get feedback without stifling their personal creativity or signature style.
 
-## A middle.
+## Learning using a Machine's Suggestions
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+To help alleviate some of the stress of this process, a machine learning algorithm can be trained to recognize elements of other images and "score" the user artist's drawing against them.  For example, the algorithm could take a group of images of humans and judge the drawing's body proportions, maybe the forearms are too long, or the torso too short.
 
+The algorithm could also compare the target picture against things like the composition, the line quality, and shape.  Several similar methods of analysis have already been developed in the pursuit of making graphics that appear hand drawn.[@li_zhi-hui_sketch_2012] [@ruilin_lin_study_2011]  The composition can be judged by the density of graphite throughout zones of the drawing, this way, areas of the drawing can be identified as sparse or busy.  Line quality could also be quantified by comparing the relative thickness and uniformity of the lines in the test to the set of drawings used for training.  The shapes in the drawing are the 2-D projections of the 3-D subjects, so the outline of the test drawing can be measured against the training set.  The degree to which the artist's angles, whether sharper or softer than the test set, will be indicated.  Assessing these core elements of a drawing would be one way for an artist to quantify improvement.
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+One way for an artist to use this tool would be to improve their representations of real subjects.  For example, photos of apples could be used to train the tool.  Then the tool would output an evaluation of how "apple-like" the user's drawing was based on the criteria mentioned earlier.
 
+Another way to use the tool is to try to deviate from established rules or norms.  Someone focusing on a fantastic or surrealist work may be interested in moving their drawings away from realistic representations.  This tool would provide them a way to judge which parts of their work deviates from the test set and the magnitude of the differences.  Perhaps the artist notices that their hectic line work sets them apart from the images they used to train the tool, which leads them to experiment further.
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+## Building Artistic Skills 
 
-## An end.
+The tool is meant to help artists explore methods to improve their work without compromising the creative process.  Like any tool, it needs to used correctly.  The AAE will never replace an artist's vision, creativity, or judgement, but instead provides the artist with a way to track their progress and find their style.  To meet this end, AAE would be implemented with "artist in the loop" design, where the user can interact to influence the performance.  An artist will be able to set and adjust a personal stylistic baseline (comprised of the elements mentioned earlier) so their progress is judged against their personal ideal.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+The tool is limited by the quality and quantity of training drawings.  Therefore, the tool is not well suited to judging an entirely unique or new piece because of the lack of material for comparison.  In some cases individual elements of  drawing can be judged and the results of multiple analyses can be synthesized for a cumulative result.
+
+Using AAE allows an artist to get rapid personalized feedback on the core elements of their piece while maintaining creative control.  The artist then interprets the feedback and innovates further so that the tool *supplements* the creative process rather than *supplanting* it.  A beginner learning to draw could discover that they need to spend more time practicing fundamentals, while an experienced artist could get a better understanding of what makes their work unique by building a baseline.
